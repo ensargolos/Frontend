@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+    margin:1%;
+}
+header{
+    background-color: green;
+    color:white;
+    display: flex;
+    justify-content: center;
+    /* height: 100px; */
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding:1%;
+    
+}
+table{
+    border-collapse: collapse;
+}
+.tabela{
+    border: 1px solid rgb(250, 222, 185);
+    border-collapse: collapse;
+
+}
+th{
+    background-color: green;
+    color: white;
+    border: solid 1px rgb(250, 222, 185);
+    border-collapse: collapse;
+    padding: 10px;
+
+}
+td{
+    padding: 10px;
+}
+tr{
+    /* background-color: white; */
+    /* height:60px; */
+}
+.jedan{
+    width:400px;
+}
+.dva{
+    width:150px;
+}
+.tri{
+    width:200px;
+}
+.tabela{
+    border:1px solid rgb(250, 222, 185);
+    width: 800px;
+    margin:1%;
+    padding: 5px;
+    /* background-color: white; */
+    border-collapse: collapse;
+    background-color: rgb(214, 202, 185);
+}
+.boja{
+    background-color:white;
+}
+.plutanje{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.bojaa{
+    background-color: rgb(175, 164, 149);
+}

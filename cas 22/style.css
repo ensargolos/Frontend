@@ -1,0 +1,40 @@
+.start{
+    display: flex;
+    justify-content: center;
+    margin:20px 0;
+}
+form{
+    border: 1px solid #f4f4f4f4;
+    background-color: #f4f4f4f4;
+    border-radius: 10px;
+    width:100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    padding: 10px;
+
+}
+input{
+    width: 95%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+label{
+    text-align: start;
+}
+.submit{
+    background-color: #333;
+    border-radius: 10px;
+    width:100%;
+    padding: 10px;
+    color: #f4f4f4;
+    display: flex;
+    
+}
+.submit:hover{
+    background-color: aliceblue;
+    color: #333;
+    transition: 0.3s;
+}

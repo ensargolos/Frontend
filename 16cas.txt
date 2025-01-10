@@ -1,0 +1,30 @@
+display: flex; - postavlja kontejner kao fleksibilni kontejner, omogućavajući njegovim potomcima da se poravnaju i rasporede koristeći fleksibilne modele rasporeda
+
+flex-direction: row; - određuje glavni smer u kojem se fleksibilni elementi raspoređuju; u ovom slučaju, raspored je horizontalan (sleva nadesno):
+row - postavlja elemente u red horizontalno sleva nadesno;
+row-reverse - postavlja elemente u red horizontalno sdesna nalevo;
+column - postavlja elemente vertikalno od vrha ka dnu;
+column-reverse - postavlja elemente vertikalno od dna ka vrhu;
+
+flex-wrap: wrap; - omogućava fleksibilnim elementima da prelome u sledeći red ako nema dovoljno prostora u glavnom smeru:
+nowrap - zadržava sve elemente u jednom redu bez prelamanja;
+wrap - omogućava prelazak elemenata u novi red kada nema dovoljno prostora;
+wrap-reverse - slično kao wrap, ali elementi prelaze u novi red u obrnutom smeru;
+
+justify-content: center; - poravnava fleksibilne elemente duž glavne ose tako da budu centrirani unutar fleksibilnog kontejnera:
+flex-start - poravnava fleksibilne elemente prema početku glavne ose;
+flex-end - poravnava fleksibilne elemente prema kraju glavne ose;
+center - centrira fleksibilne elemente duž glavne ose;
+space-between - raspoređuje elemente tako da prvi bude poravnat sa početkom, poslednji sa krajem, a preostali prostor ravnomerno podeljen između elemenata;
+space-around - dodaje jednake razmake oko svakog elementa, uključujući i rubne margine;
+space-evenly - deli prostor ravnomerno između svih elemenata, uključujući i rubove kontejnera;
+
+align-items: center; - poravnava fleksibilne elemente duž poprečne ose tako da budu centrirani vertikalno u odnosu na kontejner:
+flex-start - poravnava elemente prema početku poprečne ose;
+flex-end - poravnava elemente prema kraju poprečne ose;
+center - centrira elemente duž poprečne ose;
+baseline - poravnava elemente prema njihovim osnovnim linijama teksta;
+stretch - rasteže elemente da popune prostor duž poprečne ose (ako nisu postavljene visine);
+
+flex-flow: column nowrap; - skracenica za kombinaciju flex-direction i flex-wrap, postavlja fleksibilne elemente u vertikalni smer (column) i zabranjuje prelamanje u novi red (nowrap):
+

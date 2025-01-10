@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+header{
+    background-color:#d50505;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+   
+}
+.header{
+    margin-left:15%;
+}
+.logo{
+    width:75px;
+    height:60px;
+}
+.desno{
+    margin-right: 15%;
+    color:white;
+    border-left: 0.2px solid white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+a{
+    color:white;
+    padding-left: 20px;
+    text-decoration: none;
+}
+nav{
+    margin-left: 15%;
+    padding: 5px;
+    color: white;
+    height:40px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.meni{
+    background-color: #d50505;
+    /* display: flex;
+    justify-content: space-between; */
+    
+}
+ .TV{
+    border:  1px solid #d50505;
+    width: 40px;
+    background-color: #d50505;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .Vesti{
+    border: #d50505 1px solid;
+    width:40px;
+    display: flex;
+    justify-content: center;
+ }
+ .naslovna{
+    /* border:white 1px solid; */
+    height: 30px;
+    /* background-color: white; */
+    color: #ffffff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 80px;
+    justify-content: center;
+ }
+ .zabava{
+    border: #d50505 1px solid;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+ }
+ .zena{
+    border: #d50505 1px solid;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+ }
+ .zdravlje{
+    background-color: rgb(5, 92, 129);
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-radius: 10%;
+ }
+.slika{
+  
+    width:80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    align-items: center;
+}
+.slik{
+    border: #d50505 1px solid;
+    width:120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    height: 30px;
+    
+}
+.slobodno{
+    border: #d50505 1px solid;
+    width:150px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.kalendar{
+    border: #d50505 1px solid;
+    width:80px;
+    height:38px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+    color: rgb(169, 120, 37);
+}
+.bbc{
+    border: #d50505 1px solid;
+    width:50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+.levo{
+    
+    width: 270px;
+    
+}
+.bocno{
+    display: flex;
+    justify-content: space-between;
+}
+.desno{
+    width:270px;
+    object-fit: fill;
+}
+.good{
+    height: 80px;
+    width:38px;
+}
+.biotech{
+    height: 80px;
+    width:38px;
+}
+.dodatni > a{
+    background-color: #ffffff;
+    color:black;
+}

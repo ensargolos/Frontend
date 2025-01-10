@@ -1,0 +1,58 @@
+<form> - koristi se za definisanje obrasca za unos podataka koji 
+se šalju na server, atribute poput action i method koristi za 
+definisanje odredišta i načina slanja podataka
+
+<label> - koristi se za povezivanje teksta sa određenim elementom
+obrasca, poput input polja, radi bolje pristupačnosti
+
+<input> - univerzalni element za unos podataka; tip unosa se 
+određuje atributom type
+
+<select> - omogućava izbor između više opcija u padajućem meniju
+
+<option> - definiše pojedinačnu opciju unutar <select> elementa
+
+<input type="tel"> - omogućava unos broja telefona
+
+<input type="number"> - omogućava unos numeričkih vrednosti,
+često uz ograničenja (min, max)
+
+<input type="date"> - omogućava unos datuma
+
+<input type="file"> - omogućava izbor i slanje datoteka
+
+<input type="submit"> - dugme koje šalje podatke sa obrasca na 
+server
+
+<input type="reset"> - dugme koje resetuje (briše) sve unesene 
+podatke u obrascu.
+
+<textarea> - koristi se za unos višelinijskog teksta
+
+action - definiše URL ili putanju gde se podaci sa obrasca šalju
+
+method - određuje HTTP metodu za slanje podataka (GET ili POST)
+
+type - definiše tip polja za unos, npr. tekst, lozinka, email,
+dugme itd.
+
+name - daje ime polju kako bi se podaci prepoznali na serveru
+
+placeholder - prikazuje neobavezan tekst unutar polja dok korisnik 
+ne unese podatke
+
+required - označava da polje mora biti popunjeno pre slanja obrasca
+
+za type="radio" i type="checkbox" name atribut mora da bude kod 
+svakog inputa isti
+
+value - daje početnu vrednost elementa
+
+min - definiše minimalnu dozvoljenu vrednost za unos, 
+npr. broj ili datum
+
+max - definiše maksimalnu dozvoljenu vrednost za unos, 
+npr. broj ili datum
+
+enctype se koristi za određivanje načina kodiranja podataka prilikom 
+slanja, npr. za datoteke (multipart/form-data)

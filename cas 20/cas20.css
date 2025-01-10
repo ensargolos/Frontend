@@ -1,0 +1,64 @@
+body{
+    background-color: #f4f4f4f4;
+    color: #333;
+    font-family: Arial,  sans-serif;
+
+
+}
+header{
+    background-color:rgb(1, 54, 145);
+    color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: #333;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+a{
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    
+
+}
+
+.kartica{
+    color:rgb(1, 1, 68);
+    border: 1px #f4f4f4 solid;
+    border-radius: 5px;
+    background-color:#d2cccc;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+
+.fotke{
+    border: 1px solid #d2cccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: calc(33.3333 - 10px);
+
+}
+@media (max-width:400px) {
+    nav{
+        flex-direction: column;
+    }
+}
+        

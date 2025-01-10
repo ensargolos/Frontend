@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+header img{
+    border: 1px solid black;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 1px solid black;    
+    
+}
+
+nav li{
+    border: 1px solid black;
+    padding: 12px;
+    
+}
+footer{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    align-content: center;
+
+}
+#fb{
+    color: rgb(0, 166, 255);
+}
+#tt{
+    color: black;
+}
+
+#x{
+    color: black;
+}
+
+#instagram{
+    color: rgb(228, 64, 95);
+}

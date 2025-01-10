@@ -1,0 +1,72 @@
+
+header{
+    background-color: black;
+    color: white;
+    
+}
+.meni{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: black;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(52, 110, 234);
+    height: 100vh;
+}
+.ja{
+    color: rgb(228, 64, 95);
+    font-size: xx-large;
+}
+body{
+    background-color: antiquewhite;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0; */
+    color: white;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.linkovi{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+
+.projekti{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.projects-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.project-card{
+    width:50vw;
+    background-color: rgb(7, 4, 1);
+    text-align: center;
+
+}

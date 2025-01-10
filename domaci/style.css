@@ -1,0 +1,55 @@
+thead{
+    background-color: rgb(189, 185, 185);
+    border: solid 1px rgb(157, 156, 156);
+}
+table{
+    border-collapse: collapse;
+    width: 40%;
+}
+tr{
+    border: solid 1px rgb(157, 156, 156);
+}
+th{
+    border: solid 1px rgb(157, 156, 156);
+}
+td{
+    border: solid 1px rgb(157, 156, 156);
+}
+.namirnice{
+    border: 1px solid black;
+    width:150px;
+    border-radius: 10%;
+    height: 200px;
+    
+}
+.podvuceno{
+    text-decoration: underline;
+}
+.precrtano{
+    text-decoration: line-through;
+}
+#drugi{
+    border: solid 1px black;
+    border-radius: 10%;
+    width: 400px;
+    height: 150px;
+    margin-top: 50px;
+    
+   
+}
+#centar{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    background-color: beige;
+    width: 0;
+    border: 0;
+    
+}
+.flex-container > div{
+    background-color:white;
+    margin: 10px;
+    padding: 15px;
+    
+}

@@ -1,0 +1,155 @@
+body{
+    background-color: #f4f4f9;
+}
+header{
+    background-color: rgb(61, 60, 60);
+    color:#f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(61, 60, 60);
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+a{
+    padding: 10px 20px;
+    color: #f4f4f4;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(43, 42, 42);
+    transition: 0.3s;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+#about{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 93, 245);
+    color: #f4f4f4;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.center{
+    text-align: center;
+}
+#features{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.card{
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-width: 350px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 45vw;
+}
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px; */
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    box-shadow: 10 5 5 black;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    background-color: #edecec;
+
+}
+input{
+    min-width: 300px;
+    border-radius: 10px;
+}
+label{
+    text-align: start;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+button{
+    min-width:300px;
+    background-color: rgb(5, 93, 245);
+    color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+}
+button:hover{
+    background-color: rgb(5, 205, 245);
+    transition: 0.3s;
+    color:black;
+    font-weight: bold;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    min-width: 300px;
+    background-color: #ededed;
+    align-items: center;
+    
+    
+
+}
+.sivo{
+    background-color: gray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width:100%;
+    border-radius: 10px;
+}
+#explore{
+    display: flex;
+    justify-content: space-around;
+    background-color:#bfbdbd ;
+    flex-wrap: wrap;
+    
+}
+@media(max-width:400px){
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    #features{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height:300px;
+        margin-top:10px;
+        width:95vw;
+    }
+    .box{
+        margin-top: 10px;
+    }
+    #explore{
+        background-color: #f4f4f9;
+    }
+}
