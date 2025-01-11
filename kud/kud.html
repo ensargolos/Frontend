@@ -17,8 +17,8 @@
         <thead>
             <tr>
                 <th>Ime i prezime</th>
-                <th>skola</th>
-                <th>datum rodjenja</th>
+                <th class="hide-on-mobile">skola</th>
+                <th class="hide-on-mobile">datum rodjenja</th>
                 <th>prisutnost</th>
                 <th>clanarina</th>
             </tr>
@@ -27,13 +27,519 @@
         <tbody>
             <tr>
                 <td>Ensar Golos</td>
-                <td>Medicinski fakultet</td>
-                <td>19.02.1999.god.</td>
-                <td></td>
-                <td><button>Platio/la</button></td>
+                <td class="hide-on-mobile">Medicinski fakultet</td>
+                <td class="hide-on-mobile">19.02.1999.god.</td>
+                <td>
+                    <input type="checkbox" id="prisutnost">
+                    <label for="prisutnost">Prisutan/na</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="clanarina">
+                    <label for="clanarina">Clanarina</label>
+                </td>
             </tr>
+            <tr>
+                <td>Adla Preljevic</td>
+                <td class="hide-on-mobile">7. razred Mur</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost1">
+                    <label for="prisutnost1">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina1">
+                    <label for="clanarina1">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Asifa Dolicanin</td>
+                <td class="hide-on-mobile"></td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost2">
+                    <label for="prisutnost2">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina2">
+                    <label for="clanarina2">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Asija Skrijelj</td>
+                <td class="hide-on-mobile">6.razred Stefan Nemanja</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost3">
+                    <label for="prisutnost3">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina4">
+                    <label for="clanarina4">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dzana Drustinac</td>
+                <td class="hide-on-mobile"></td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost5">
+                    <label for="prisutnost5">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina5">
+                    <label for="clanarina5">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dzelila Golos</td>
+                <td class="hide-on-mobile">6. razred Avdo Medjedovic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost6">
+                    <label for="prisutnost6">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina6">
+                    <label for="clanarina6">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dzana Sabanovic</td>
+                <td class="hide-on-mobile">8. razred Mur</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost7">
+                    <label for="prisutnost7">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina7">
+                    <label for="clanarina7">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lina Golos</td>
+                <td class="hide-on-mobile">5. razred Avdo Medjedovic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost8">
+                    <label for="prisutnost8">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina8">
+                    <label for="clanarina8">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dzenana Hamidovic</td>
+                <td class="hide-on-mobile">6. razred Desanka Maksimovic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost9">
+                    <label for="prisutnost9">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina9">
+                    <label for="clanarina9">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dzenisa Djerekarac</td>
+                <td class="hide-on-mobile"></td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost10">
+                    <label for="prisutnost10">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina10">
+                    <label for="clanarina10">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lamija Gicic</td>
+                <td class="hide-on-mobile">7. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost11">
+                    <label for="prisutnost11">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina11">
+                    <label for="clanarina11">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lamija Lekovic</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost12">
+                    <label for="prisutnost12">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina12">
+                    <label for="clanarina12">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lemana Zejnelovic</td>
+                <td class="hide-on-mobile">6. razred Stefan Nemanja</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost13">
+                    <label for="prisutnost13">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina13">
+                    <label for="clanarina13">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lina Hadzibulic</td>
+                <td class="hide-on-mobile">5. razred Camil Sijaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost14">
+                    <label for="prisutnost14">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina14">
+                    <label for="clanarina14">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Adna Hadzibulic</td>
+                <td class="hide-on-mobile">3. razred Camil SIjaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost15">
+                    <label for="prisutnost15">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina15">
+                    <label for="clanarina15">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Naida Balic</td>
+                <td class="hide-on-mobile">7. razred Halifa Bin Zajed</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost16">
+                    <label for="prisutnost16">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina16">
+                    <label for="clanarina16">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Simona Ristovic</td>
+                <td class="hide-on-mobile">5. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost17">
+                    <label for="prisutnost17">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina17">
+                    <label for="clanarina17">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Andjelija Ristovic</td>
+                <td class="hide-on-mobile">3. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost18">
+                    <label for="prisutnost18">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina18">
+                    <label for="clanarina18">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Adna Radetinac</td>
+                <td class="hide-on-mobile">8. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost19">
+                    <label for="prisutnost19">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina19">
+                    <label for="clanarina19">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Merjem Eminovic</td>
+                <td class="hide-on-mobile">8. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost20">
+                    <label for="prisutnost20">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina20">
+                    <label for="clanarina20">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Zejna Sahovic</td>
+                <td class="hide-on-mobile">6. razred Stefan Nemanja</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost21">
+                    <label for="prisutnost21">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina21">
+                    <label for="clanarina21">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lamija Jusovic</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost22">
+                    <label for="prisutnost22">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina22">
+                    <label for="clanarina22">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Adna Koca</td>
+                <td class="hide-on-mobile">5. razred Desanka Maksimovic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost23">
+                    <label for="prisutnost23">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina23">
+                    <label for="clanarina23">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Omer Halilovic</td>
+                <td class="hide-on-mobile">5. razred Stefan Nemanja</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox24" id="prisutnost24">
+                    <label for="prisutnost">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina24">
+                    <label for="clanarina24">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Anja Sretkovic</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost25">
+                    <label for="prisutnost25">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina25">
+                    <label for="clanarina25">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Safija Ramovic</td>
+                <td class="hide-on-mobile">5. razred Vuk Karadzic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost26">
+                    <label for="prisutnost26">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina26">
+                    <label for="clanarina26">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hatidza Bacicanin</td>
+                <td class="hide-on-mobile">5. razred Desanka Maksimovic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost27">
+                    <label for="prisutnost27">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina27">
+                    <label for="clanarina27">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Andrijana Radisavljevic</td>
+                <td class="hide-on-mobile">5. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost28">
+                    <label for="prisutnost28">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina28">
+                    <label for="clanarina28">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Marta Dobric</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost29">
+                    <label for="prisutnost29">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina29">
+                    <label for="clanarina29">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Omer Jahovic</td>
+                <td class="hide-on-mobile">5. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost30">
+                    <label for="prisutnost30">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina30">
+                    <label for="clanarina30">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sedzda Numanovic</td>
+                <td class="hide-on-mobile">3. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost31">
+                    <label for="prisutnost31">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina31">
+                    <label for="clanarina31">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Zejna Tutic</td>
+                <td class="hide-on-mobile">4. razred Stefan Nemanja</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost32">
+                    <label for="prisutnost32">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina32">
+                    <label for="clanarina32">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Merjem Sinanovic</td>
+                <td class="hide-on-mobile">5. razred Camil Sijaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost33">
+                    <label for="prisutnost33">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina33">
+                    <label for="clanarina33">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Ajsa Sinanovic</td>
+                <td class="hide-on-mobile">2. razred Camil Sijaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost34">
+                    <label for="prisutnost34">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina34">
+                    <label for="clanarina34">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dina Zukorlic</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdzevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost35">
+                    <label for="prisutnost35">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina35">
+                    <label for="clanarina35">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Amina Latifovic</td>
+                <td class="hide-on-mobile">7. razred Vuk Karadzic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost36">
+                    <label for="prisutnost36">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina36">
+                    <label for="clanarina36">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Asija Licina</td>
+                <td class="hide-on-mobile">6. razred Camil Sijaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost37">
+                    <label for="prisutnost37">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina37">
+                    <label for="clanarina37">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lejla Hajdarevic</td>
+                <td class="hide-on-mobile">5. razred Camil Sijaric</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost38">
+                    <label for="prisutnost38">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina38">
+                    <label for="clanarina38">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Merjem Mehovic</td>
+                <td class="hide-on-mobile">6. razred Jovan Jovanovic Zmaj</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost39">
+                    <label for="prisutnost39">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina39">
+                    <label for="clanarina39">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Aida Bogucanin</td>
+                <td class="hide-on-mobile">6. razred Vuk Karadzic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost40">
+                    <label for="prisutnost40">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina40">
+                    <label for="clanarina40">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Dalila Grljevic</td>
+                <td class="hide-on-mobile"></td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost41">
+                    <label for="prisutnost41">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina41">
+                    <label for="clanarina41">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sara Papic</td>
+                <td class="hide-on-mobile">6. razred Rifat Burdevic Trso</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost42">
+                    <label for="prisutnost42">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina42">
+                    <label for="clanarina42">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Lejla Kasovic</td>
+                <td class="hide-on-mobile">5. razred</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost43">
+                    <label for="prisutnost43">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina43">
+                    <label for="clanarina43">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Darija Koca</td>
+                <td class="hide-on-mobile">5. razred</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost44">
+                    <label for="prisutnost44">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina44">
+                    <label for="clanarina44">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Umeja Ahmetovic</td>
+                <td class="hide-on-mobile">7. razred Vuk Karadzic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost45">
+                    <label for="prisutnost45">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina45">
+                    <label for="clanarina45">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Asija Medjedovic</td>
+                <td class="hide-on-mobile">5. razred Vuk Karadzic</td>
+                <td class="hide-on-mobile"></td>
+                <td><input type="checkbox" id="prisutnost46">
+                    <label for="prisutnost46">Prisutan/na</label>
+                </td>
+                <td> <input type="checkbox" id="clanarina46">
+                    <label for="clanarina46">Clanarina</label>
+                </td>
+            </tr>
+            <tr>
 
+            </tr>
+            
+            
         </tbody>
     </table>
+    <button>Prihvati</button>
 </body>
 </html>

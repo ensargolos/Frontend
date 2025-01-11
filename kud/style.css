@@ -1,5 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+   
 }
 header{
     background-color: rgb(90, 199, 246);
@@ -10,9 +16,14 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:100%;
 }
 table{
     border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    margin: 40px;
+
  
 }
 th,td{
@@ -20,13 +31,51 @@ th,td{
     padding: 5px;
 
 }
+input{
+    display: none;
+}
+.prisutnost {
+    background-color:red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+label {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+label:hover{
+    background-color: darkred;
+}
+input:checked + label{
+    background-color: rgb(7, 202, 7);
+}
 button{
-    background-color: rgb(0, 89, 255);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(90, 199, 246);
     color: aliceblue;
     font-weight: bold;
+    font-size: larger;
+    border: none;
     border-radius: 10px;
-    
+    padding: 5px 40px;
 }
-button:after{
-    background-color: rgb(10, 193, 10);
+button:hover{
+    cursor: pointer;
+    background-color: darkcyan;
+}
+@media (max-width:530px){
+    th.hide-on-mobile, td.hide-on-mobile{
+        display: none;
+    }
 }
